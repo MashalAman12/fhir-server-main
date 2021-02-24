@@ -1,0 +1,50 @@
+{
+    "users": [
+        {
+            "id": "globalReaderUser",
+            "roles": [
+                "globalReader"
+            ]
+        },
+        {
+            "id": "globalWriterUser",
+            "roles": [
+                "globalWriter"
+            ]
+        },
+        {
+            "id": "globalExporterUser",
+            "roles": [
+                "globalExporter"
+            ]
+        },
+        {
+            "id": "globalConverterUser",
+            "roles": [
+                "globalConverter"
+            ]
+        },
+        {
+            "id": "globalAdminUser",
+            "roles": [
+                "globalAdmin"
+            ]
+        }
+    ],
+    "clientApplications": [
+        {
+            "id": "globalAdminServicePrincipal",
+            "roles": [
+                "globalAdmin"
+            ]
+        },
+        {
+            "id": "nativeClient",
+            "roles": []
+        },
+        {
+            "id": "wrongAudienceClient",
+            "roles": []
+        }
+    ]
+}
